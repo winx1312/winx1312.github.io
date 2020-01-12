@@ -1,0 +1,205 @@
+    .const__helmet {
+        width: 479px;
+        height: 545px;
+        position: relative;
+        top: -540px;
+        transition: 1s;
+        transition-delay: 0.1s;
+        opacity: 0;
+        z-index: 0;
+        @media (max-width: 769px) {
+            transform: scale(.9);
+        }
+    }
+    
+    .hel-2 {
+        z-index: 0;
+        top: 600px;
+    }
+    
+    .hel-3 {
+        z-index: 0;
+        top: 48px;
+    }
+    
+    .hel-1 {
+        z-index: 0;
+    }
+    
+    .helmetA {
+        width: 479px;
+        height: 545px;
+        position: relative;
+        top: -540px;
+        transition: 1s;
+        opacity: 1;
+    }
+    
+    .opac {
+        opacity: 0;
+    }
+    
+    .visable .hel-1 {
+        top: -501px;
+        opacity: 1;
+        z-index: 0;
+    }
+    
+    .const__visors {
+        width: 421px;
+        height: 189px;
+        position: relative;
+        transition: 1s;
+        opacity: 0;
+        @media (max-width: 1000px) {
+            transform: scale(.9);
+        }
+        @media (max-width: 769px) {
+            transform: scale(.8);
+        }
+    }
+    
+    .v-1 {
+        top: -1300px;
+        right: -57px;
+        z-index: 1;
+        transition-delay: 0.1s;
+    }
+    
+    .visable .const__visors {
+        top: -1000px;
+        opacity: 1;
+    }
+    
+    .v-2 {
+        top: -1436px;
+        right: -57px;
+        z-index: 2;
+        transition-delay: 0.2s;
+    }
+    
+    .visable .v-2 {
+        top: -1136px;
+        opacity: 1;
+    }
+    
+    .v-3 {
+        top: -1654px;
+        right: -57px;
+        z-index: 3;
+        transition-delay: 0.3s;
+    }
+    
+    .visable .v-3 {
+        top: -1354px;
+        opacity: 1;
+    }
+    
+    .v-4 {
+        top: -1873px;
+        right: -57px;
+        z-index: 4;
+        transition-delay: 0.4s;
+    }
+    
+    .visable .v-4 {
+        top: -1573px;
+        opacity: 1;
+    }
+    
+    .v-5 {
+        top: -2092px;
+        right: -57px;
+        z-index: 5;
+        transition-delay: 0.5s;
+    }
+    
+    .visable .v-5 {
+        top: -1792px;
+        opacity: 1;
+    }
+    
+    .v-6 {
+        top: -2310px;
+        right: -57px;
+        z-index: 6;
+        transition-delay: 0.6s;
+    }
+    
+    .visable .v-6 {
+        top: -2010px;
+        opacity: 1;
+    }
+    
+    .const__holder {
+        position: relative;
+        width: 35px;
+        height: 49px;
+        opacity: 0;
+        transition: 2s;
+        @media (max-width: 769px) {
+            transform: scale(.9);
+        }
+    }
+    
+    .visable .const__holder {
+        opacity: 1;
+    }
+    
+    .h-1 {
+        bottom: 1965px;
+        left: -387px;
+        z-index: 7;
+        transition-delay: 0.1s;
+    }
+    
+    .h-2 {
+        bottom: 1965px;
+        left: -424px;
+        z-index: 8;
+        transition-delay: 0.2s;
+    }
+    
+    .h-3 {
+        bottom: 2038px;
+        left: 8px;
+        z-index: 9;
+        transition-delay: 0.3s;
+    }
+    
+    .h-4 {
+        bottom: 2054px;
+        left: -61px;
+        z-index: 10;
+        transition-delay: 0.4s;
+    }
+    
+    .h-5 {
+        bottom: 2074px;
+        left: -128px;
+        z-index: 11;
+        transition-delay: 0.5s;
+    }
+    
+    .h-6 {
+        bottom: 2002px;
+        left: -48px;
+        z-index: 6;
+        transition-delay: 0.6s;
+    }
+    
+    .const__helmetA {
+        width: 479px;
+        height: 545px;
+        position: relative;
+        top: -540px;
+        transition: 1s;
+        transition-delay: 0.1s;
+        opacity: 1;
+    }
+    
+    .h-7 {
+        bottom: 2002px;
+        left: -86px;
+        z-index: 3;
+    }

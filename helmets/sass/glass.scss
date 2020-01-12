@@ -1,0 +1,142 @@
+.glass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url('../img/sect-bg.jpg');
+    @media (max-width: 1000px) {
+        margin-top: 800px;
+    }
+    @media (max-width: 769px) {
+        position: relative;
+        top: -518px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        transition: transform 3s;
+        @media (max-width: 600px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__animate {
+            @media (max-width: 600px) {
+                transform: scale(.8);
+            }
+            @media (max-width: 400px) {
+                position: relative;
+                top: -178px;
+            }
+            &__helmet {
+                position: absolute;
+                max-width: 504px;
+                max-height: 623px;
+                box-shadow: -1px 37px 131px 16px rgba(12, 13, 15, 0.55);
+                opacity: 1;
+            }
+            &__visor {
+                position: relative;
+                min-width: 220px;
+                max-height: 180px;
+                bottom: -101px;
+                right: -53px;
+            }
+        }
+        .glass__block {
+            max-width: 624px;
+            max-height: 283px;
+            display: flex;
+            flex-direction: column;
+            @media (max-width: 1000px) {
+                max-width: 274px;
+                max-height: 311px;
+            }
+            &__heading {
+                color: #dc1a1a;
+                font-family: "Kaushan Script";
+                font-size: 36px;
+                font-weight: 400;
+                font-style: italic;
+                @media (max-width: 769px) {
+                    color: #dc1a1a;
+                    font-family: "Kaushan Script";
+                    font-size: 24px;
+                    font-weight: 400;
+                    font-style: italic;
+                }
+            }
+            &__main {
+                color: #ffffff;
+                font-family: "Russo One";
+                font-size: 48px;
+                font-weight: 400;
+                font-style: italic;
+                @media (max-width: 769px) {
+                    color: #ffffff;
+                    font-family: "Russo One";
+                    font-size: 32px;
+                    font-weight: 400;
+                    font-style: italic;
+                }
+            }
+            &__text {
+                color: #7c8c9b;
+                font-family: "Muller Light";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                @media (max-width: 769px) {
+                    color: #7c8c9b;
+                    font-family: "Muller Light";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 30px;
+                }
+            }
+            &__podtext {
+                position: relative;
+                color: #dc1a1a;
+                font-family: "Muller Regular";
+                font-size: 16px;
+                font-weight: 400;
+                font-style: italic;
+                line-height: 30px;
+                align-self: center;
+                @media (max-width: 769px) {
+                    color: #dc1a1a;
+                    font-family: "Muller Regular";
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: italic;
+                    line-height: 30px;
+                }
+                &::before {
+                    content: '';
+                    position: absolute;
+                    left: -90px;
+                    width: 54px;
+                    height: 46px;
+                    background-image: url('../img/show.svg');
+                    background-size: cover
+                }
+            }
+        }
+    }
+}
+
+.glass-animate {
+    animation: vlet 2s;
+}
+
+@keyframes vlet {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

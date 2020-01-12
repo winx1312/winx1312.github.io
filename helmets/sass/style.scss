@@ -1,0 +1,297 @@
+.style {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: url('../img/bg-s.png') center no-repeat;
+    background-size: cover;
+    @media (max-width: 999px) {
+        margin-top: -340px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -1093px;
+        align-items: center;
+        z-index: 1;
+        @media (max-width: 769px) {}
+    }
+    &__but {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        top: -1704px;
+        position: relative;
+        @media (max-width: 999px) {
+            margin-top: 50px;
+        }
+        @media (max-width: 400px) {
+            top: -2200px;
+        }
+    }
+    &__heading {
+        margin-top: 29px;
+        color: #ffffff;
+        font-family: "Muller Bold";
+        font-size: 18px;
+        font-weight: 400;
+    }
+    &__list {
+        list-style-type: none;
+        margin-top: 66px;
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        &-link {
+            color: #ffffff;
+            font-family: "Muller Light";
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+    }
+    &__button {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 57px;
+        width: 223px;
+        border: 4px solid #dc1a1a;
+        transform: skewX(-22deg);
+        background-color: transparent;
+        color: #fff;
+        font-size: 11px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        transition: background-size .15s;
+        &::before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            right: 238px;
+            height: 57px;
+            width: 2px;
+            background-color: #fff;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: -4px;
+            height: 57px;
+            width: 2px;
+            background-color: #fff;
+            opacity: 0;
+        }
+        &:hover:after {
+            background-color: white;
+            opacity: 1;
+            animation: buttonAfter .2s
+        }
+    }
+    &__inform {
+        color: #81858a;
+        font-family: "Muller Light";
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    &__price {
+        color: #ffffff;
+        font-family: "Muller Bold";
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    &__options {
+        margin-left: 48px;
+        width: 640px;
+        @media (max-width: 1000px) {
+            position: relative;
+            top: -2782px;
+        }
+        @media (max-width: 400px) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+    &__opt-wrapper {
+        margin-bottom: 15px;
+        @media (max-width: 769px) {
+            transform: scale(.8);
+        }
+    }
+    &__opt-heading {
+        margin-bottom: 60px;
+        font-size: 18px;
+        letter-spacing: .5px;
+        font-weight: 700;
+        color: #fff
+    }
+    &__opt-list {
+        display: flex;
+    }
+    &__opt-item {
+        position: relative;
+        margin-right: 35px;
+        cursor: pointer;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            z-index: 1;
+            right: 5px;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            opacity: 0;
+            transform: translateY(-50px);
+            transition: opacity .3s;
+            background-color: red;
+        }
+        &:active:before {
+            opacity: 1;
+        }
+    }
+    &__opt-img-hel {
+        height: 60px;
+        max-width: 75px;
+    }
+    &__opt-name {
+        width: 60px;
+        height: 45px;
+        font-size: 14px;
+        color: #81858a;
+        font-weight: 300;
+        letter-spacing: .5px;
+        margin-top: 21px;
+    }
+    &__opt-coming {
+        margin-top: 23px;
+        color: #dc1a1a;
+        font-family: "Muller Bold";
+        font-size: 11px;
+        font-weight: 400;
+    }
+    &__opt-img-v {
+        width: 73px;
+        height: 33px;
+    }
+    &__opt-img-h {
+        width: 42px;
+        height: 45px;
+    }
+}
+
+.style__opt-item:hover .style__opt-img {
+    transform: scale(1.2)
+}
+
+.helmet-chosen {
+    animation: helmetChoose 1s;
+}
+
+.nvisor-chose {
+    animation: helmetChoose 1s;
+    top: -896px;
+    opacity: 1;
+    position: relative;
+}
+
+.holder-chosen {
+    animation: holderChoose 2s;
+}
+
+@keyframes helmetChoose {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+@keyframes holderChoose {
+    0% {
+        transform: translate(-50px, -10px)
+    }
+    100% {
+        transform: translate(0, 0)
+    }
+}
+
+.container__style {
+    display: flex;
+    @media (max-width: 999px) {
+        position: relative;
+        flex-direction: column;
+    }
+    @media (max-width: 769px) {
+        top: -490px;
+    }
+}
+
+.hol-1 {
+    top: -1970px;
+    left: -520px
+}
+
+.const {
+    @media (max-width: 1000px) {
+        padding-top: 282px;
+    }
+    @media (max-width:1100px) {
+        margin-top: 40px;
+        transform: scale(.7)
+    }
+    @media (max-width:767px) {
+        width: 100%;
+        margin-bottom: 580px;
+        transform: scale(.9)
+    }
+    @media (max-width:550px) {
+        margin-left: -30px;
+        transform: scale(.7)
+    }
+    @media (max-width:500px) {
+        transform: scale(.65)
+    }
+    @media (max-width:450px) {
+        margin-left: -60px;
+        -webkit-transform: scale(.6);
+        transform: scale(.6)
+    }
+    @media (max-width:400px) {
+        transform: scale(.55)
+    }
+    @media (max-width:360px) {
+        transform: scale(.5)
+    }
+}
+
+#visors {
+    @media (max-width: 400px) {
+        display: none;
+    }
+}
+
+#holders {
+    @media (max-width: 400px) {
+        display: none;
+    }
+}
+
+#helmets {
+    @media (max-width: 400px) {
+        position: relative;
+        top: -400px
+    }
+}
