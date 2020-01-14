@@ -9,3 +9,18 @@ window.addEventListener('scroll', function(event) {
     }
 
 })
+document.querySelector('.header__customize').addEventListener("click", function() {
+    window.scrollTo(pageYOffset, 950);
+});
+const optItem = document.querySelectorAll('.style__opt-item')
+optItem.forEach(i => {
+    i.addEventListener('click', function(event) {
+        console.log(event.target)
+        if (event.target) {
+            event.target.style.opacity = 1;
+        } else {
+            event.target.style.opacity = 0;
+        }
+
+    })
+})
