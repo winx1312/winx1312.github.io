@@ -118,8 +118,9 @@
                     left: -90px;
                     width: 54px;
                     height: 46px;
-                    background-image: url('../img/show.svg');
-                    background-size: cover
+                    background: url('../img/show.svg');
+                    color: white;
+                    background-size: cover;
                 }
             }
         }

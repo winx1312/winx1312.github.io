@@ -156,10 +156,12 @@
             background-color: red;
             transition: opacity .4s, transform .4s;
         }
-        &__opt-item.chosen:before {
-            background-color: #dc1a1a;
-            transform: translateY(0);
-            opacity: 1
+        .chosen {
+            &:before {
+                background-color: #dc1a1a;
+                transform: translateY(0);
+                opacity: 1
+            }
         }
         &:active:before {
             opacity: 1;

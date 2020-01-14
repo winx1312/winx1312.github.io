@@ -35,6 +35,9 @@ body {
     text-decoration: none;
     outline: 0;
     transition: transorm 3s;
+    svg {
+        fill: white;
+    }
     .hide {
         opacity: 0;
     }

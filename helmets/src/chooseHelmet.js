@@ -44,7 +44,6 @@
   let hide = false;
 
   function chooseHelmet(helmet, text) {
-
       hideall()
       showHelmet(helmet)
       showVisor()
@@ -114,11 +113,6 @@
       showVisor(visor)
       showholder()
       chooseTextVisor(text)
-      if (choose = false) {
-          showHelmet()
-      }
-      if (chooseHol = true)
-          showholder()
   }
 
   function hideVisors() {
@@ -130,8 +124,8 @@
   function chooseHolders(holder, text) {
       hideHolders()
       showholder(holder)
-
       chooseTextHolders(text)
+      showVisor()
 
   }
 
