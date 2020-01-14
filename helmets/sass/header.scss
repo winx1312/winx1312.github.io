@@ -253,6 +253,7 @@ body {
             cursor: pointer;
             transition: box-shadow .2s ease;
             box-shadow: 0 0 0 0 rgba(210, 21, 21, .38);
+            outline: none;
             @media (max-width: 400px) {
                 top: -107px;
             }
@@ -287,6 +288,7 @@ body {
             background: url('../img/spray\ .svg') center center no-repeat;
             color: white;
             background-size: cover;
+            fill: #fff;
         }
     }
 }

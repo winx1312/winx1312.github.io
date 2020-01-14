@@ -15,9 +15,8 @@ document.querySelector('.header__customize').addEventListener("click", function(
 const optItem = document.querySelectorAll('.style__opt-item');
 const circ = document.querySelectorAll('.helper')
 optItem.forEach(i => {
-    i.addEventListener('click', () => function(event) {
-        event.target.style.opacity = 1;
-        i.style.opacity = 0;
+    i.addEventListener('click', () => function(optItem) {
+        optItem.classList.add('Chosen')
 
     })
 })
