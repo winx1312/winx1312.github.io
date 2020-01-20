@@ -25,7 +25,7 @@
         @media (max-width: 999px) {
             margin-top: 50px;
         }
-        @media (max-width: 400px) {
+        @media (max-width: 450px) {
             top: -2200px;
         }
     }
@@ -286,19 +286,25 @@
 }
 
 #visors {
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
         display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 }
 
 #holders {
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
         display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 }
 
 #helmets {
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
         position: relative;
         top: -400px
     }

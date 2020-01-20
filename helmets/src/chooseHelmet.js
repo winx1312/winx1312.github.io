@@ -69,9 +69,9 @@
       visors[0].style.top = (-902) + 'px';
       visors[1].style.top = (-1095) + 'px';
       visors[2].style.top = (-1286) + 'px';
-      visors[3].style.top = (-1475) + 'px';
+      visors[3].style.top = (-1480) + 'px';
       visors[4].style.top = (-1672) + 'px';
-      visors[5].style.top = (-1865) + 'px';
+      visors[5].style.top = (-1867) + 'px';
   }
 
 

@@ -9,7 +9,7 @@
     @media (max-width: 769px) {
         margin-top: 0;
     }
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
         margin-bottom: 194px;
     }
     &__block {
@@ -61,8 +61,9 @@
                 background-size: cover;
                 transform: rotate(30deg);
                 right: 324px;
-                @media (max-width: 400px) {
-                    opacity: 0;
+                @media (max-width: 500px) {
+                   display: none;
+                
                 }
             }
         }
