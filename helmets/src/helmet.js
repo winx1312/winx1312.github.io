@@ -13,10 +13,9 @@ document.querySelector('.header__customize').addEventListener("click", function(
     window.scrollTo(pageYOffset, 950);
 });
 const optItem = document.querySelectorAll('.style__opt-item');
-const circ = document.querySelectorAll('.helper')
 optItem.forEach(i => {
     i.addEventListener('click', () => function(optItem) {
-        optItem.classList.add('Chosen')
-
+        optItem.classList.add('chosen')
     })
+    i.classList.remove('chosen')
 })
