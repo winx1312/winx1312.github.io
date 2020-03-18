@@ -1,6 +1,13 @@
 {
-  "main.css": "static/css/main.7bc23883.css",
-  "main.css.map": "static/css/main.7bc23883.css.map",
-  "main.js": "static/js/main.f81b22ee.js",
-  "main.js.map": "static/js/main.f81b22ee.js.map"
+  "main.css": "/mafiaShop/static/css/main.b6e0f9fc.chunk.css",
+  "main.js": "/mafiaShop/static/js/main.21a44f89.chunk.js",
+  "main.js.map": "/mafiaShop/static/js/main.21a44f89.chunk.js.map",
+  "static/js/1.b5b2c463.chunk.js": "/mafiaShop/static/js/1.b5b2c463.chunk.js",
+  "static/js/1.b5b2c463.chunk.js.map": "/mafiaShop/static/js/1.b5b2c463.chunk.js.map",
+  "runtime~main.js": "/mafiaShop/static/js/runtime~main.f7cae7b9.js",
+  "runtime~main.js.map": "/mafiaShop/static/js/runtime~main.f7cae7b9.js.map",
+  "static/css/main.b6e0f9fc.chunk.css.map": "/mafiaShop/static/css/main.b6e0f9fc.chunk.css.map",
+  "index.html": "/mafiaShop/index.html",
+  "precache-manifest.9c8e2421b5067d5914b601990f8b29af.js": "/mafiaShop/precache-manifest.9c8e2421b5067d5914b601990f8b29af.js",
+  "service-worker.js": "/mafiaShop/service-worker.js"
 }
