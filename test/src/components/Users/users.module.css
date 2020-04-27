@@ -1,0 +1,27 @@
+.users{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.input{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.left{
+   padding-right: 100px; ;
+    border-right: 2px solid black;
+}
+.main{
+    margin-top: 30px;
+    margin-left: 60px;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}

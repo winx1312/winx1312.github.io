@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.close {
+   padding-left: 500px;
+    font-size: 20px;
+align-self: flex-end;
+  color: red;
+    opacity: 0.3;
+    }
+    .close:hover {
+    opacity: 1;
+    }
+    .close:before {
+        content:  " x ";
+        height: 20px;
+        width: 10px;
+        color: red;
+        }
+        .open {
+            padding-left: 500px;
+            margin-right: 3px;
+            font-size: 20px;
+        align-self: flex-end;
+          color: red;
+            opacity: 0.3;
+            }
+            .open:hover {
+            opacity: 1;
+            }
+            .open:before {
+                content:  " R ";
+                height: 20px;
+                width: 10px;
+                color: red;
+                }
+
+
+.user{
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.button{
+    width: 520px;
+    padding: 0;
+    cursor: pointer;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.user button:hover{
+    border-color:blue;
+    background-color:violet;
+   
+}
+.ss{
+    margin-bottom: 20px;
+}
+ .active{
+    border-color:blue;
+    background-color:violet ;
+}
+.user h2 {
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.user h3 {
+    color: cadetblue;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.disabled:disabled{
+    background: #ccc;
+    width: 520px;
+    padding: 0;
+    cursor: pointer;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
