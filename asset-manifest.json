@@ -1,6 +1,16 @@
 {
-  "main.css": "static/css/main.7bc23883.css",
-  "main.css.map": "static/css/main.7bc23883.css.map",
-  "main.js": "static/js/main.f81b22ee.js",
-  "main.js.map": "static/js/main.f81b22ee.js.map"
+  "files": {
+    "main.css": "/static/css/main.ff7ff6e9.chunk.css",
+    "main.js": "/static/js/main.efac291c.chunk.js",
+    "main.js.map": "/static/js/main.efac291c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.f1e32905.chunk.js": "/static/js/2.f1e32905.chunk.js",
+    "static/js/2.f1e32905.chunk.js.map": "/static/js/2.f1e32905.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.60dd5b44eb0a3a6fd194454113ec7c87.js": "/precache-manifest.60dd5b44eb0a3a6fd194454113ec7c87.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ff7ff6e9.chunk.css.map": "/static/css/main.ff7ff6e9.chunk.css.map",
+    "static/media/preloader.svg": "/static/media/preloader.6e7c9db7.svg"
+  }
 }
