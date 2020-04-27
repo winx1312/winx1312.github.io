@@ -2,6 +2,7 @@
   "name": "test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://IgnatMuchinStudent.github.io/test",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.8.6",
@@ -9,7 +10,6 @@
     "react-redux": "^6.0.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "3.0.1",
-    "homepage": "http://IgnatMuchinStudent.github.io/test",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "typescript": "^3.8.3"
