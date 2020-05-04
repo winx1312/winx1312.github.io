@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/demo-works/static/css/main.ff7ff6e9.chunk.css",
-    "main.js": "/demo-works/static/js/main.fcac479e.chunk.js",
-    "main.js.map": "/demo-works/static/js/main.fcac479e.chunk.js.map",
-    "runtime~main.js": "/demo-works/static/js/runtime~main.baf9f33f.js",
-    "runtime~main.js.map": "/demo-works/static/js/runtime~main.baf9f33f.js.map",
-    "static/js/2.c9d866ba.chunk.js": "/demo-works/static/js/2.c9d866ba.chunk.js",
-    "static/js/2.c9d866ba.chunk.js.map": "/demo-works/static/js/2.c9d866ba.chunk.js.map",
-    "index.html": "/demo-works/index.html",
-    "precache-manifest.3ab1c7c1c4908a7807f3547815a65bcf.js": "/demo-works/precache-manifest.3ab1c7c1c4908a7807f3547815a65bcf.js",
-    "service-worker.js": "/demo-works/service-worker.js",
-    "static/css/main.ff7ff6e9.chunk.css.map": "/demo-works/static/css/main.ff7ff6e9.chunk.css.map",
-    "static/media/preloader.svg": "/demo-works/static/media/preloader.6e7c9db7.svg"
+    "main.css": "/socialNetWork/static/css/main.4e0a1a80.chunk.css",
+    "main.js": "/socialNetWork/static/js/main.8723985e.chunk.js",
+    "main.js.map": "/socialNetWork/static/js/main.8723985e.chunk.js.map",
+    "runtime~main.js": "/socialNetWork/static/js/runtime~main.90fa1e3c.js",
+    "runtime~main.js.map": "/socialNetWork/static/js/runtime~main.90fa1e3c.js.map",
+    "static/js/2.35812b93.chunk.js": "/socialNetWork/static/js/2.35812b93.chunk.js",
+    "static/js/2.35812b93.chunk.js.map": "/socialNetWork/static/js/2.35812b93.chunk.js.map",
+    "static/css/3.e685c878.chunk.css": "/socialNetWork/static/css/3.e685c878.chunk.css",
+    "static/js/3.3953786a.chunk.js": "/socialNetWork/static/js/3.3953786a.chunk.js",
+    "static/js/3.3953786a.chunk.js.map": "/socialNetWork/static/js/3.3953786a.chunk.js.map",
+    "static/css/4.98218486.chunk.css": "/socialNetWork/static/css/4.98218486.chunk.css",
+    "static/js/4.6844335c.chunk.js": "/socialNetWork/static/js/4.6844335c.chunk.js",
+    "static/js/4.6844335c.chunk.js.map": "/socialNetWork/static/js/4.6844335c.chunk.js.map",
+    "index.html": "/socialNetWork/index.html",
+    "precache-manifest.5fa6334deb4734c80fbb0523440d3443.js": "/socialNetWork/precache-manifest.5fa6334deb4734c80fbb0523440d3443.js",
+    "service-worker.js": "/socialNetWork/service-worker.js",
+    "static/css/3.e685c878.chunk.css.map": "/socialNetWork/static/css/3.e685c878.chunk.css.map",
+    "static/css/4.98218486.chunk.css.map": "/socialNetWork/static/css/4.98218486.chunk.css.map",
+    "static/css/main.4e0a1a80.chunk.css.map": "/socialNetWork/static/css/main.4e0a1a80.chunk.css.map",
+    "static/media/user.png": "/socialNetWork/static/media/user.d48a8973.png"
   }
 }
