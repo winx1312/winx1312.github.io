@@ -53,7 +53,6 @@ let mapStateToProps = (state) => {
         isDisabled:getDisabledSelector(state),
         isFetching: getFetchingSelector(state),
         userId: getUserIdSelector(state),
-        disabledInProgress:getDisabledInProgressSelector(state),
 
     }
 }

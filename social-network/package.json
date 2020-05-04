@@ -2,7 +2,7 @@
   "name": "social-network",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://ignatmuchinstudent.github.io/social-network",
+  "homepage": " https://ignatmuchinstudent.github.io/socialNetWork",
   "dependencies": {
     "@types/classnames": "^2.2.9",
     "@types/jest": "^25.1.2",

@@ -18,6 +18,4 @@ export const getDisabledSelector = (state: AppStateType) => {
 export const getUserIdSelector = (state: AppStateType) => {
     return state.usersPage.userId;
 }
-export const getDisabledInProgressSelector = (state: AppStateType) => {
-    return state.usersPage.disabledInProgress;
-}
+

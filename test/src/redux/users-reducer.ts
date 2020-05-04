@@ -13,7 +13,6 @@ const TOGLE_IS_ERROR  =`scale_solution/user_reducer/TOGGLE_IS_ERROR`
 const SET_USER_ID = 'scale_solution/user_reducer/SET_USER_ID';
 const IS_DISABLED_PROCESS = `scale_solution/user_reducer/IS_DISABLED_PROCESS`
 let initialState = {
-    disabledInProgress: [] as Array<number>,
     isDisabled:false as boolean,
     search: '' as string,
     users: [ ] as  Array<UserType>,
@@ -55,9 +54,8 @@ const usersReducer = (state = initialState, action: actions): InitialState => {
             return{...state, error:action.error}
         }
        case IS_DISABLED_PROCESS:{
-           return{...state, disabledInProgress: action.isDisabled
-            ? [...state.disabledInProgress, action.userId]
-            : state.disabledInProgress.filter(id => id != action.userId) }
+           return{...state,isDisabled:action.isDisabled, users:state.users.filter(u=>u.id==action.userId)  }
+           
        }
         
         default:{
@@ -72,7 +70,7 @@ export const  setUser=(user:oneType)=>({type:SET_USER,user}as const)
 export const  toggleIsFetching = (isFetching:boolean) => ({type: TOGGLE_IS_FETCHING, isFetching }as const)
 export const  toggleIsError =(error:boolean) => ({type: TOGLE_IS_ERROR, error }as const)
 export const  setUserId =(userId:number) => ({type: SET_USER_ID, userId}as const)
-export const  disabledProcess = ( isDisabled:boolean,userId:number)=>({type: IS_DISABLED_PROCESS, isDisabled, userId }as const)
+export const  disabledProcess = ( isDisabled:boolean,userId:number,)=>({type: IS_DISABLED_PROCESS, isDisabled, userId }as const)
 
 // type DispatchType = Dispatch<ActionsTypes>
 export const setInformUser = (userId=11):any  => {

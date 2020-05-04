@@ -19,21 +19,15 @@ const ProfileContainer = React.lazy(() => import('./components/Profile/ProfileCo
 
 
 class App extends Component {
-    catchAllUnhandledErrors = (reason, promise) => {
-        alert("Some error occured");
-        //console.error(promiseRejectionEvent);
-    }
+    
     componentDidMount() {
         this.props.initializeApp();
-        window.addEventListener("unhandledrejection", this.catchAllUnhandledErrors);
+    
     }
-    componentWillUnmount() {
-        window.removeEventListener("unhandledrejection", this.catchAllUnhandledErrors);
-    }
-
+ 
     render() {
         if (!this.props.initialized) {
-            return <Preloader/>
+            return <div className= "load"><Preloader/></div>
         }
 
         return (
@@ -42,6 +36,7 @@ class App extends Component {
                 <Navbar/>
                 <div className='app-wrapper-content'>
                     <Switch>
+                
                         <Route exact path='/'
                                render={() => <Redirect to={"/profile"}/>}/>
 
