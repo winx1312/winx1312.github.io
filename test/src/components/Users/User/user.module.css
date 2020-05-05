@@ -4,9 +4,9 @@
     text-decoration: none;
 }
 .close {
-   padding-left: 500px;
-    font-size: 20px;
-align-self: flex-end;
+display: flex;
+ font-size: 20px;
+padding-left: 400px ;
   color: red;
     opacity: 0.3;
     }
@@ -19,52 +19,36 @@ align-self: flex-end;
         width: 10px;
         color: red;
         }
-        .open {
-            padding-left: 500px;
-            margin-right: 3px;
-            font-size: 20px;
-        align-self: flex-end;
-          color: red;
-            opacity: 0.3;
-            }
-            .open:hover {
-            opacity: 1;
-            }
-            .open:before {
-                content:  " R ";
-                height: 20px;
-                width: 10px;
-                color: red;
-                }
+
 
 
 .user{
     flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-    
-}
-.button{
-    width: 520px;
-    padding: 0;
-    cursor: pointer;
-    border: 1px solid black;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    cursor: pointer;
     margin-bottom: 40px;
+    border: 1px solid;
+  
 }
-.user button:hover{
+.user:hover{
     border-color:blue;
     background-color:violet;
-   
+    width: 100%;
 }
-.ss{
-    margin-bottom: 20px;
-}
+
  .active{
+     align-items: center;
+     width: 100%;
     border-color:blue;
     background-color:violet ;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
 }
 .user h2 {
     font-weight: bold;

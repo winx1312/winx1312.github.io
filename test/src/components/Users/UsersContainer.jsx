@@ -39,7 +39,7 @@ class UsersContainer extends React.Component {
            <div className={s.left}>
             <Users {...this.props} filterUsers={filterUsers} search={this.state.search} onChange={this.onChange} />
              </div>
-             <div><MoreInform {...this.props.user} users={this.props.users}/></div>
+             <div className ={s.sticky}><MoreInform {...this.props.user} users={this.props.users}/></div>
         </div>
         )
     }
