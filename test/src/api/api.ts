@@ -8,7 +8,7 @@ const instance = axios.create({
 
 
 export const getUsers=()=>{
-    return instance.get<UsersResponseType>("list.json")
+    return instance.get("list.json")
 }
 export const getUser=(userId:number)=>{ 
     return instance.get(`cats/${userId}.json`)

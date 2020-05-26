@@ -1,3 +1,5 @@
+
+
 import { getUser, getUsers } from "../api/api";
 import Users from "../components/Users/Users";
 import { InferActionsTypes, AppStateType } from "./redux-store";
@@ -13,8 +15,7 @@ const TOGLE_IS_ERROR  =`scale_solution/user_reducer/TOGGLE_IS_ERROR`
 const SET_USER_ID = 'scale_solution/user_reducer/SET_USER_ID';
 const IS_DISABLED_PROCESS = `scale_solution/user_reducer/IS_DISABLED_PROCESS`
 let initialState = {
-    isDisabled:false as boolean,
-    search: '' as string,
+    isDisabled: false as boolean ,
     users: [ ] as  Array<UserType>,
     isFetching: true as boolean,
     error:false as boolean,
@@ -30,7 +31,8 @@ export type oneType={
 export type UserType = {
     id: number
     name: string
-    shortInfo: string
+    shortInfo: string,
+    disabled: boolean
     more: any
 }
 type actions = ReturnType<typeof setUser>|ReturnType<typeof setUsers>|ReturnType<typeof toggleIsFetching>|ReturnType<typeof toggleIsError>|ReturnType<typeof setUserId>|ReturnType<typeof disabledProcess>
@@ -54,7 +56,7 @@ const usersReducer = (state = initialState, action: actions): InitialState => {
             return{...state, error:action.error}
         }
        case IS_DISABLED_PROCESS:{
-           return{...state,isDisabled:action.isDisabled, users:state.users.filter(u=>u.id==action.userId)  }
+           return{...state, users: state.users.map((u: UserType)=>u.id==action.userId? u.disabled = action.isDisabled: u) }
            
        }
         
@@ -91,7 +93,7 @@ export const setAllUsers = (search:string):any => {
     return (dispatch:any) => {
         dispatch(toggleIsFetching(true));
         getUsers().then(response => {
-            dispatch(setUsers(response.data.data));
+            dispatch(setUsers((response.data.data).map((u: UserType)=> u.disabled=false )));
             dispatch(toggleIsFetching(false));
             
         })

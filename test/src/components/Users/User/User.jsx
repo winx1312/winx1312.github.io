@@ -1,10 +1,9 @@
 import React, { useState } from "react"
 import s from "./user.module.css";
 import { NavLink } from "react-router-dom";
- const User = ({name, shortInfo,setInformUser,  id,users  })=>{
+ const User = ({name, shortInfo,setInformUser,  id,users, isDisabled  })=>{
  
     return(    
-      
       
             <div className={s.user}  onClick={ setInformUser}>
                       <NavLink to ={"/"+id} activeClassName={s.active}>
